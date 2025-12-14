@@ -3,7 +3,7 @@ League-level tactical analysis of Europe’s top five football leagues using SQL
 
 # European Football League Styles — Half-Season Analysis (2025/26)
 
-Interactive Tableau Story: https://public.tableau.com/views/TacticalStylisticHalf-SeasonEuropeanFootballAnalysisTop5Leagues/DisciplinaryProfiles?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Interactive Tableau Story: https://public.tableau.com/views/TacticalStylisticHalf-SeasonEuropeanFootballAnalysisTop5Leagues/TacticalStylisticComparisonofEuropesTopFiveLeaguesHalf-Season2526?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Overview
 
