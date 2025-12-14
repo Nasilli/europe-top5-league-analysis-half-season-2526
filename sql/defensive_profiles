@@ -1,4 +1,4 @@
--- Purpose: Build Dataset for Progression through Dribbling %
+-- Purpose: Build Dataset for Defensive Profiles
 -- Source: FBref team tables (uploaded to BigQuery as CSV)
 
 SELECT
