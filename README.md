@@ -105,7 +105,7 @@ All dashboards support **league-position filtering** for deeper contextual analy
 
 - The analysis reflects a **half-season snapshot**, which may amplify short-term variance.
 - League-level aggregation can obscure club-specific tactical nuances.
-- League-position filters mitigate this but do not eliminate within-tier heterogeneity.
+- League-position filters mitigate this but do not eliminate within-tier variance.
 - Tactical concepts such as pressing intensity or block height are inferred via proxy metrics.
 - Disciplinary outcomes may reflect refereeing interpretation as well as team behaviour.
 - Metrics are **not adjusted for opponent strength**, which may affect cross-league comparisons.
@@ -115,7 +115,6 @@ All dashboards support **league-position filtering** for deeper contextual analy
 ## Repository Structure
 /writeup/   – Full written report (PDF)
 /sql/       – SQL queries used to build master and aggregate tables
-/assets/    – Optional screenshots for README or documentation
 
 ---
 
