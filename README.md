@@ -112,8 +112,8 @@ All dashboards support **league-position filtering** for deeper contextual analy
 ---
 
 ## Repository Structure
-/writeup/   – Full written report (PDF)
-/sql/       – SQL queries used to build master and aggregate tables
+/writeup/   - Full written report (PDF)
+/sql/       - SQL queries used to build master and aggregate tables
 
 ---
 
