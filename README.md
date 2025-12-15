@@ -41,10 +41,10 @@ Interactive **league-position filters (Top 5, Bottom 5, Other teams)** are appli
 
 ## Data
 
-- **Source:** FBref (public team-level statistics)
-- **Period:** First half of the 2025/26 domestic season  
-- **Collection date:** 10/12/2025  
-- **Normalisation:**  
+**Source:** FBref (public team-level statistics)
+**Period:** First half of the 2025/26 domestic season  
+**Collection date:** 10/12/2025  
+**Normalisation:**  
   - All volume metrics expressed **per 90 minutes**  
   - League-level averages derived from team data  
 
