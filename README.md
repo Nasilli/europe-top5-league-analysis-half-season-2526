@@ -70,7 +70,7 @@ Interactive **league-position filters (Top 5, Bottom 5, Other teams)** are appli
   Ligue 1 underperforms xG despite strong shot quality, while the Bundesliga overperforms (with results partly influenced by elite-team dominance).
 
 - **Creative efficiency:**  
-  The Bundesliga converts progressive passing into shot creation more efficiently at league level, while elite Premier League teams rely less on sustained progression and more on alternative chance-generation mechanisms.
+  The Bundesliga converts progressive passing into shot creation more efficiently at league level, while elite Premier League teams rely less on sustained progression and more on alternative chance generation mechanisms.
 
 - **Progression methods:**  
   Premier League and La Liga rely more heavily on dribbling and ball carrying, especially among top teams. The Bundesliga remains pass-led across all competitive tiers.
