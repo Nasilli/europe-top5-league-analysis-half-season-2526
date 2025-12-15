@@ -64,7 +64,7 @@ Interactive **league-position filters (Top 5, Bottom 5, Other teams)** are appli
 ## Key Findings (Summary)
 
 - **Shot quality:**  
-  Ligue 1 produces the highest-quality chances on average, while Serie A consistently generates the lowest — particularly among top teams.
+  Ligue 1 produces the highest-quality chances on average, while Serie A consistently generates the lowest, particularly among top teams.
 
 - **Finishing efficiency:**  
   Ligue 1 underperforms xG despite strong shot quality, while the Bundesliga overperforms (with results partly influenced by elite-team dominance).
@@ -79,10 +79,10 @@ Interactive **league-position filters (Top 5, Bottom 5, Other teams)** are appli
   A positive league-level relationship exists, but bottom teams show more transitional profiles, achieving progression with reduced possession.
 
 - **Defensive styles:**  
-  Leagues cluster into distinct defensive identities when comparing tackles (reactive) and interceptions (anticipatory), with additional stratification across league positions.
+  Leagues cluster into distinct defensive identities when comparing tackles (reactive) and interceptions (anticipatory), with additional arrangements across league positions.
 
 - **Discipline:**  
-  Yellow cards are broadly consistent across leagues, while red card rates vary significantly — particularly higher in Ligue 1 and La Liga.
+  Yellow cards are broadly consistent across leagues, while red card rates vary significantly, particularly higher in Ligue 1 and La Liga.
 
 ---
 
