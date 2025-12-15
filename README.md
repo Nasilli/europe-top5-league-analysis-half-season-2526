@@ -1,7 +1,6 @@
 # europe-top5-league-analysis-half-season-2526
 League-level tactical analysis of Europe’s top five football leagues using SQL and Tableau, based on half-season 2025/26 FBref data.
 
-# European Football League Styles — Half-Season Analysis (2025/26)
 
 Interactive Tableau Story: https://public.tableau.com/views/TacticalStylisticHalf-SeasonEuropeanFootballAnalysisTop5Leagues/TacticalStylisticComparisonofEuropesTopFiveLeaguesHalf-Season2526?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
@@ -9,10 +8,10 @@ Interactive Tableau Story: https://public.tableau.com/views/TacticalStylisticHal
 
 This project compares tactical and stylistic tendencies across Europe’s top five domestic football leagues:
 
-**Premier League, La Liga, Bundesliga, Serie A, and Ligue 1**  
+Premier League, La Liga, Bundesliga, Serie A, and Ligue 1 
 (using data from the first half of the 2025/26 season).
 
-The analysis is conducted at **league level**, aggregating team metrics to league averages to identify structural stylistic differences rather than club-specific effects.
+The analysis is conducted at the league level, aggregating team metrics to league averages to identify structural stylistic differences rather than club-specific effects.
 
 Key dimensions analysed include:
 - Attacking quality & finishing efficiency  
@@ -21,7 +20,7 @@ Key dimensions analysed include:
 - Defensive styles (reactive vs anticipatory)  
 - Discipline and refereeing patterns  
 
-Interactive **league-position filters (Top 5, Bottom 5, Other teams)** are applied throughout to explore how styles persist or diverge across competitive tiers.
+Interactive league-position filters (Top 5, Bottom 5, Other teams) are applied throughout to explore how styles persist or diverge across competitive tiers.
 
 ---
 
@@ -45,7 +44,7 @@ Interactive **league-position filters (Top 5, Bottom 5, Other teams)** are appli
 **Period:** First half of the 2025/26 domestic season  
 **Collection date:** 10/12/2025  
 **Normalisation:**  
-  - All volume metrics expressed **per 90 minutes**  
+  - All volume metrics expressed per 90 minutes  
   - League-level averages derived from team data  
 
 ### Key Metrics
@@ -103,12 +102,12 @@ All dashboards support **league-position filtering** for deeper contextual analy
 
 ## Methodology & Caveats
 
-- The analysis reflects a **half-season snapshot**, which may amplify short-term variance.
+- The analysis reflects a half-season snapshot, which may amplify short-term variance.
 - League-level aggregation can obscure club-specific tactical nuances.
-- League-position filters mitigate this but do not eliminate within-tier variance.
+- League-position filters mitigate this, but do not eliminate within-tier variance.
 - Tactical concepts such as pressing intensity or block height are inferred via proxy metrics.
 - Disciplinary outcomes may reflect refereeing interpretation as well as team behaviour.
-- Metrics are **not adjusted for opponent strength**, which may affect cross-league comparisons.
+- Metrics are not adjusted for opponent strength, which may affect cross-league comparisons.
 
 ---
 
