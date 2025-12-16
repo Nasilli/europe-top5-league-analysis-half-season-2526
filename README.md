@@ -1,4 +1,6 @@
-# europe-top5-league-analysis-half-season-2526
+# Europe Top 5 League Analysis 
+# Half Season 25-26 
+## (Data collected 10/12/2025)
 League-level tactical analysis of Europe’s top five football leagues using SQL and Tableau, based on half-season 2025/26 FBref data.
 
 
@@ -20,15 +22,16 @@ Key dimensions analysed include:
 - Defensive styles (reactive vs anticipatory)  
 - Discipline and refereeing patterns  
 
-Interactive league-position filters (Top 5, Bottom 5, Other teams) are applied throughout to explore how styles persist or diverge across competitive tiers.
+Interactive league position filters (Top 5, Bottom 5, Other teams) are applied throughout to explore how styles persist or diverge across competitive tiers.
 
 ---
 
 ## Tools
 
 - **SQL (BigQuery):**  
-  - Joining FBref team tables  
-  - Cleaning and normalising metrics  
+  - Joining FBref team tables across leagues
+  - Cleaning and normalising per 90 minute metrics
+  - Deriving composite variables 
   - Creating league-level aggregates  
 
 - **Tableau:**  
@@ -49,10 +52,10 @@ Interactive league-position filters (Top 5, Bottom 5, Other teams) are applied t
 
 ### Key Metrics
 - Possession share (%)
-- Progressive passes per 90
-- Progressive carries per 90
+- Progressive passes per 90 - a progressive pass is defined by FBref as a pass that moves the ball towards the opponent's goal line by at least 10 yards from the furtherst point reached in the last 6 passes. 
+- Progressive carries per 90 - a progressive carry is defined by FBref as a carry that moves the ball towards the opponent's goal line by at least 10 yards from the furtherst point reached in the last 6 actions. 
 - Non-penalty xG per shot
-- Goals − xG
+- Goals - xG
 - Tackles per 90
 - Interceptions per 90
 - Yellow cards per 90
@@ -60,19 +63,19 @@ Interactive league-position filters (Top 5, Bottom 5, Other teams) are applied t
 
 ---
 
-## Key Findings (Summary)
+## Key Findings
 
 - **Shot quality:**  
   Ligue 1 produces the highest-quality chances on average, while Serie A consistently generates the lowest, particularly among top teams.
 
 - **Finishing efficiency:**  
-  Ligue 1 underperforms xG despite strong shot quality, while the Bundesliga overperforms (with results partly influenced by elite-team dominance).
+  Ligue 1 underperforms xG despite strong shot quality, while the Bundesliga overperforms (with results partly influenced by elite team dominance).
 
 - **Creative efficiency:**  
   The Bundesliga converts progressive passing into shot creation more efficiently at league level, while elite Premier League teams rely less on sustained progression and more on alternative chance generation mechanisms.
 
 - **Progression methods:**  
-  Premier League and La Liga rely more heavily on dribbling and ball carrying, especially among top teams. The Bundesliga remains pass-led across all competitive tiers.
+  Premier League and La Liga rely more heavily on dribbling and ball carrying, especially among top teams. The Bundesliga remains pass led across all competitive tiers.
 
 - **Possession vs progression:**  
   A positive league-level relationship exists, but bottom teams show more transitional profiles, achieving progression with reduced possession.
@@ -89,18 +92,16 @@ Interactive league-position filters (Top 5, Bottom 5, Other teams) are applied t
 
 The Tableau Story is organised into the following sections:
 
-1. **Attacking Quality & Finishing Performance**
-2. **Creative Efficiency & Build-Up Styles**
-3. **Progression Methods (Passing vs Dribbling)**
-4. **Possession vs Progression (Tier Comparison)**
-5. **Defensive Styles (Tackles vs Interceptions)**
-6. **Discipline & Refereeing Patterns**
+1. **Attacking Quality & Creative Efficiency**
+2. **Progression & Defensive Styles Comparison**
+3. **Possession vs Progression**
+4. **Discipline & Refereeing Comparison**
 
-All dashboards support **league-position filtering** for deeper contextual analysis.
+All visualisations support league position filtering for deeper contextual analysis.
 
 ---
 
-## Methodology & Caveats
+## Limitations
 
 - The analysis reflects a half-season snapshot, which may amplify short-term variance.
 - League-level aggregation can obscure club-specific tactical nuances.
@@ -112,8 +113,9 @@ All dashboards support **league-position filtering** for deeper contextual analy
 ---
 
 ## Repository Structure
-/writeup/   - Full written report (PDF)
-/sql/       - SQL queries used to build master and aggregate tables
+- /writeup/   - Full written report (PDF)
+- /sql/       - SQL queries used to build master and aggregate tables
+ - /assets/   - Screenshots of each individual dashboard
 
 ---
 
