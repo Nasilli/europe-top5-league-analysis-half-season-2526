@@ -24,7 +24,6 @@ Key dimensions analysed include:
 
 Interactive league position filters (Top 5, Bottom 5, Other teams) are applied throughout to explore how styles persist or diverge across competitive tiers.
 
----
 
 ## Tools
 
@@ -39,7 +38,6 @@ Interactive league position filters (Top 5, Bottom 5, Other teams) are applied t
   - Interactive dashboards  
   - Guided storytelling via Tableau Story
 
----
 
 ## Data
 
@@ -61,7 +59,6 @@ Interactive league position filters (Top 5, Bottom 5, Other teams) are applied t
 - Yellow cards per 90
 - Red cards per 90
 
----
 
 ## Key Findings
 
@@ -86,7 +83,6 @@ Interactive league position filters (Top 5, Bottom 5, Other teams) are applied t
 - **Discipline:**  
   Yellow cards are broadly consistent across leagues, while red card rates vary significantly, particularly higher in Ligue 1 and La Liga.
 
----
 
 ## Dashboard Guide
 
@@ -99,7 +95,6 @@ The Tableau Story is organised into the following sections:
 
 All visualisations support league position filtering for deeper contextual analysis.
 
----
 
 ## Limitations
 
@@ -110,7 +105,6 @@ All visualisations support league position filtering for deeper contextual analy
 - Disciplinary outcomes may reflect refereeing interpretation as well as team behaviour.
 - Metrics are not adjusted for opponent strength, which may affect cross-league comparisons.
 
----
 
 ## Repository Structure
 - /writeup/   - Full written report (PDF)
